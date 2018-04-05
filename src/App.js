@@ -18,7 +18,6 @@ class App extends Component {
       return response.text();
     })
     .then((token) => {
-      console.log('token is', token)
       var stream = recognizeMic({
         token: token,
         objectMode: true, // send objects instead of text
@@ -26,7 +25,7 @@ class App extends Component {
         format: false // optional - performs basic formatting on the results such as capitals an periods
       });
       stream.on('data', (data) => {
-        console.log(data);
+        // console.log(data);
         this.setState({text: data.alternatives[0].transcript})
       });
       stream.on('error', function(err) {
