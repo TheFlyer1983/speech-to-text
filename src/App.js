@@ -13,7 +13,10 @@ class App extends Component {
   }
   onListenClick(){
     this.setState({active: true})
-    fetch('http://localhost:3002/api/speech-to-text/token')
+    fetch('https://speech-to-text-api.herokuapp.com/api/speech-to-text/token', {
+        method: 'post'
+      }
+    )
     .then(function(response) {
       return response.text();
     })

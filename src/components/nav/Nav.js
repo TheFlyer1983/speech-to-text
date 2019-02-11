@@ -10,7 +10,7 @@ const Nav = () => {
             <span className="navbar-toggler-bar"></span>
             <span className="navbar-toggler-bar"></span>
           </button>
-          <a className="navbar-brand" href="">TheFlyer1983</a>
+          <a className="navbar-brand" href="home">TheFlyer1983</a>
         </div>
         <div className="collapse navbar-collapse" id="navbarToggler">
           <ul className="navbar-nav ml-auto">
