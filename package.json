@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "ajv": "^6.12.3",
+    "ajv": "^6.12.5",
     "merge": "^1.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "^3.4.1",
+    "react-scripts": "^3.4.3",
     "watson-developer-cloud": "^4.0.1",
     "watson-speech": "^0.38.1"
   },
